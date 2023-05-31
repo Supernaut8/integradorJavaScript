@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1.titular {
+    font-size: 20px;  
+}
+
+.navbar-brand {
+    display: flex;
+}
+
+.navbar.bg-body-tertiary {
+    margin: 0;
+    padding: 0;   
+}
+
+.navbar-nav {
+    margin-left: 920px;
+}
+
+@media only screen and (max-width: 1830px) {
+    .navbar-nav {
+        margin-left: auto;
+        padding: 0;     
+    }
+}
+
+#bannerprincipal {
+    background-color:  rgb(65, 76, 95);
+    height: auto;
+}
+
+a.nav-link {
+    color: white;
+}
+
+.navbar-brand.disable h1{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#logo {
+    margin-left: 5%;
+    width: 100px;
+    height: 70px;
+}
+
+.container1 {
+    margin-bottom: 15px;
+}
+
+.carousel-caption.d-none.d-md-block {
+    margin-bottom: 250px;
+    padding-left: 500px;
+    color: white;
+    text-align: end;
+}
+
+@media only screen and (max-width: 1200px) {
+    .carousel-caption.d-none.d-md-block {
+      width: auto;
+      height: auto;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+}
+
+.btn.btn-outline-dark {
+    color: white;
+}
+
+#btn2 {
+    background-color: green;
+}
+
+#btn2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.container2{
+    margin-bottom: 15px;
+}
+
+.card.p-md-2.p-lg-3 { 
+    margin-left: 30px;
+    margin-right: 30px;  
+}    
+
+.col-sm-12.col-lg-6 {
+   margin: 0;
+   padding-left: 0;
+   padding-right: 1px;
+}
+
+.imagenHonolulu {
+    height: auto;
+    width: auto; 
+}
+
+#contParrafo {
+    background-color: rgb(65, 76, 95);
+    color: white;  
+    padding-right: 1px;
+}
+
+.contParrafo2 {
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.invitacion {
+    text-align: center;
+}
+
+.invitacion .text1 {
+    padding-top: 20px;
+    height: 20px;
+    font-size: 12px;
+    
+}
+
+.formulario {
+    width: 600px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .formulario {
+      width: auto;
+    }
+}
+
+
+.formulario .text3 {
+    font-size: 12px;
+}
+
+#button4 {
+    background-color: rgb(145, 197, 24);
+    border: none;
+    margin-bottom: 20px;
+    width: auto;
+    height: auto;
+
+}
+
+#footerNav {
+    background-color:  rgb(29, 44, 68);
+    height: auto;
+}
+
+#footerNav li.nav-item {
+    height: 90px;
+    width: 120PX;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+

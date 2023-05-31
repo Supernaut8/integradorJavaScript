@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1.titular {
+    font-size: 20px;  
+}
+
+.navbar-brand {
+    display: flex;
+}
+
+.navbar.bg-body-tertiary {
+    margin: 0;
+    padding: 0;   
+}
+
+.navbar-nav {
+    margin-left: 920px;
+}
+
+@media only screen and (max-width: 1830px) {
+    .navbar-nav {
+        margin-left: auto;
+        padding: 0;   
+    }
+}
+
+#bannerprincipal {
+    background-color:  rgb(65, 76, 95);
+    height: auto;
+}
+
+a.nav-link {
+    color: white;
+}
+
+.navbar-brand.disable h1{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+
+.container.text-center {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.row.g-0.justify-content-center{
+    justify-content: center;
+    align-items: center;
+}
+
+
+#estudiante {
+    border: 1px solid blue;
+    width: 230px;
+    height: 230px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: auto;
+}
+
+#trainee {
+    border: 1px solid rgb(0, 140, 255);
+    width: 230px;
+    height: 230px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#junior {
+    border: 1px solid rgb(193, 231, 22);
+    width: 230px;
+    height: 230px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+#porcentaje {
+    font-weight: bold;
+}
+
+.tituloFormulario {
+    text-align: center;
+}
+
+#formulario {
+    width: 720px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 720px) {
+    #formulario {
+        width: auto;
+        margin: auto;
+        padding: auto;
+             
+    }
+}
+
+p {
+    font-size: 16px;
+    font-weight: normal;
+
+}
+
+#formEmail {
+    margin-top: 15px;
+    margin-bottom: 22px;
+}
+
+.seleccion {
+    margin-bottom: 10px;
+}
+
+#total {
+    margin-top: 30px;
+}
+
+#total .form-control {
+    background-color: rgb(127, 214, 255);
+}
+
+.btn.btn-primary {
+    width: 336px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    background-color: rgb(139, 201, 45);
+}
+
+@media only screen and (max-width: 720px) {
+    .btn.btn-primary {
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;             
+    }
+}
+
+#footerNav {
+    background-color:  rgb(29, 44, 68);
+    height: auto;
+}
+
+#footerNav li.nav-item {
+    height: 90px;
+    width: 120PX;
+    color: white;
+    display: flex;
+    align-items: center;
+}
