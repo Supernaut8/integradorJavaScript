@@ -26,7 +26,7 @@
             <a class="nav-link" href="#">Los oradores</a>
             <a class="nav-link" href="#">El lugar y la fecha</a>
             <a class="nav-link" href="#">Conviértete en orador</a>
-            <a class="nav-link" href="#" style="color: green">Compra tickets</a>
+            <a class="nav-link" href="#nombre" style="color: green">Compra tickets</a>
           </div>
         </div>
       </div>
@@ -80,15 +80,17 @@
         <div class="col-6">          
           <label class="seleccion">Categoría</label>
           <select id="categoria" class="form-select" aria-label="Default select example">
-            <option selected>Estudiante</option>
+            <option selected value="1">Estudiante</option>
             <option id="estudiante" value="1">Estudiante</option>
             <option id="trainee" value="2">Trainee</option>
             <option id="junior" value="3">Junior</option>
           </select>          
         </div>
-        <div id="total" class="col-12">
-          <!--<input id="total" type="text" class="form-control" placeholder="Total a pagar: $" aria-label="-->Total a pagar: $">
-          <input id="total" type="text">
+        <div class="col-12">
+          <div id="alertaTotal">
+          Total a pagar: $
+            <span id="total"></span>
+          </div> 
         </div>
         <div class="col-6">
           <button id="borrar" class="btn btn-primary" type="button">Borrar</button>
