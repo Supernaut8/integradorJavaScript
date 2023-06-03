@@ -11,7 +11,6 @@ const correo = document.getElementById("correo")
 btnResumen.addEventListener("click", calculaTotal);
 btnBorrar.addEventListener("click", limpiaCampos);
 
-
 function descuento(cat) {
     let ticket;
     
@@ -30,10 +29,6 @@ function descuento(cat) {
     }
     return ticket;         
 }
-
-/*addEventListener(click, calculaCosto) getElementById("resumen");
-calculaCosto(valor, cantidad);*/
-
 
 function calculaTotal() {    
     
